@@ -8,7 +8,7 @@ public class textReader {
         File image = new File("/Users/benjaminszovaticoulter/Desktop/testFile1.jpeg");
         Tesseract tessInst = new Tesseract();
         //tessInst.setLanguage("por");
-        tessInst.setDatapath("/Users/benjaminszovaticoulter/Desktop/Tess4J 2/tessdata");
+        tessInst.setDatapath("/Users/benjaminszovaticoulter/Desktop/Tess4J2/tessdata");
         try {
             String result= tessInst.doOCR(image);
             System.out.println(result);
